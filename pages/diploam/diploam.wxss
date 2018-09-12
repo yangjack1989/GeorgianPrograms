@@ -1,0 +1,90 @@
+/* pages/diploam/diploam.wxss */
+.header{
+  border: 5rpx solid greenyellow;
+  background-color: green;
+  text-align: center;
+  color: white;
+}
+/*button*/  
+.show-button3 {  
+  width: 80%;  
+  padding: 20rpx 0;  
+  border-radius: 10rpx;  
+  text-align: center;  
+  margin: 40rpx 10%;  
+  background: #0C1939;  
+  color: #fff;  
+}  
+.show-button1 {  
+  width: 80%;  
+  padding: 20rpx 0;  
+  border-radius: 10rpx;  
+  text-align: center;  
+  margin: 40rpx 10%;  
+  background:  lightcoral;  
+  color: #fff;  
+}  
+.show-button4 {  
+  width: 80%;  
+  padding: 20rpx 0;  
+  border-radius: 10rpx;  
+  text-align: center;  
+  margin: 40rpx 10%;  
+  background:  dodgerblue;  
+  color: #fff;  
+}  
+.show-button5 {  
+  width: 80%;  
+  padding: 20rpx 0;  
+  border-radius: 10rpx;  
+  text-align: center;  
+  margin: 40rpx 10%;  
+  background:  olivedrab;  
+  color: #fff
+}  
+.show-button6 {  
+  width: 80%;  
+  padding: 20rpx 0;  
+  border-radius: 10rpx;  
+  text-align: center;  
+  margin: 40rpx 10%;  
+  background: saddlebrown;  
+  color: #fff
+}
+.show-button7 {  
+  width: 80%;  
+  padding: 20rpx 0;  
+  border-radius: 10rpx;  
+  text-align: center;  
+  margin: 40rpx 10%;  
+  background: darkred ;
+  color: #fff
+}
+.show-button8 {  
+  width: 80%;  
+  padding: 20rpx 0;  
+  border-radius: 10rpx;  
+  text-align: center;  
+  margin: 40rpx 10%;  
+  background: teal;  
+  color: #fff
+}
+
+.drawer_title line{  
+  padding:20rpx;  
+  font:42rpx "microsoft yahei";  
+  text-align: center;  
+}  
+
+.button2{
+  width: 600rpx;
+  background-color: darkgray;
+  color: white;
+}
+.hide{
+ display: none;
+}
+.show{ 
+ display: block;
+}
+

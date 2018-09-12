@@ -1,0 +1,29 @@
+<!--pages/detail/detail.wxml-->
+<view class='page'>
+  <view class="page__hd">
+    <text class='.weui-cells__title'>专业信息</text>
+  </view>
+  
+  
+    
+  
+    <view  wx:for="{{programs}}">
+    
+    <view class=".weui-cell">专业名称：{{item.name}}</view>
+    <view class=".weui-cell">专业代码：{{item.code}}</view>
+    <view class=".weui-cell">专业分类：{{item.categorie}}</view>
+    <view class=".weui-cell">开学日期：{{item.start_date}}</view>
+    <view class=".weui-cell">学制时长：{{item.length}}</view>
+    <view class=".weui-cell">学费：{{item.tuition}}加元/年</view>
+    <view class=".weui-cell">实习（每个为期4个月）：{{item.coop}}</view>
+    <view class=".weui-cell">校区地点：{{item.campus}}</view>
+    <view class=".weui-cell">专业描述：{{item.description}}</view>
+    <view class=".weui-cell">专业前景：{{item.carrie}}</view>
+    </view>
+  
+  
+
+    
+  
+
+</view>

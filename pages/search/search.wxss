@@ -1,0 +1,14 @@
+/* pages/steps/steps.wxss */
+
+.container{
+  margin-bottom: 20rpx;
+}
+.block{
+  width: 100%;
+  height:50rpx;
+}
+.btnbox_hover {
+
+  background: white;
+
+}

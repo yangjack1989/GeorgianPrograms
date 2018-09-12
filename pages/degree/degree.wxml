@@ -1,0 +1,44 @@
+<!--pages/degree/degree.wxml-->
+<view class="navbar">
+
+  <view class="navbar-item" wx:for="{{navbar}}" wx:for-index="idx" data-idx="{{idx}}" bindtap="swichNav">
+
+    <text class="navbar-text {{currentNavbar==idx ? 'active' : ''}}">{{item}}</text>
+
+  </view>
+
+</view>
+<scroll-view class="hot-item-container {{currentNavbar==0 ? '' : 'hidden'}}" scroll-y="true" >
+  <navigator url="../detail/detail?id=60">
+    <button>护理学学士</button>
+  </navigator>
+  <navigator url="../detail/detail?id=20">
+  <button>商学学士(汽车产业管理)</button>
+  </navigator>
+  <navigator url="../detail/detail?id=18">
+    <button>商学学士 (高尔夫产业管理)</button>
+  </navigator>
+  <navigator url="../detail/detail?id=19">
+    <button>商学学士 (工商管理)</button>
+  </navigator>
+  <navigator url="../detail/detail?id=21">
+    <button>室内设计学士学位 (需作品集)</button>
+  </navigator>
+  <navigator url="../detail/detail?id=89">
+  <button>人文服务学士 (警察学)</button>
+  </navigator>
+</scroll-view>
+<scroll-view class="hot-item-container {{currentNavbar==1 ? '' : 'hidden'}}" scroll-y="true">
+  <navigator url="../detail/detail?id=40">
+    <button>电气工程 - 湖首大学学士学位</button>
+  </navigator>
+  <navigator url="../detail/detail?id=41">
+    <button>环境管理 - 湖首大学学士学位</button>
+  </navigator>
+  <navigator url="../detail/detail?id=80">
+    <button>生物工程 - 湖首大学学士学位</button>
+  </navigator>
+  <navigator url="../detail/detail?id=81">
+    <button>计算机科学 - 湖首大学学士学位</button>
+  </navigator>
+</scroll-view>

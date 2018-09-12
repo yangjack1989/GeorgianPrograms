@@ -1,0 +1,55 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/search/search",
+    "pages/logs/logs",
+    "pages/diploam/diploam",
+    "pages/certificate/certificate",
+    "pages/degree/degree",
+    "pages/detail/detail",
+    "pages/eap/eap",
+    "pages/calculation/calculation",
+    "pages/life/life"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#3333FF",
+    "navigationBarTitleText": "乔治亚的专业",
+    "navigationBarTextStyle": "white"
+  },
+  "tabBar": {
+    "color": "#ccc",
+    "selectedColor": "black",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "首页",
+        "iconPath": "images/home.png",
+        "selectedIconPath": "/images/home.png"
+      },
+      {
+        "pagePath": "pages/search/search",
+        "text": "搜索",
+        "iconPath": "images/search.png",
+        "selectedIconPath": "/images/search.png"
+      },
+      {
+        "pagePath": "pages/calculation/calculation",
+        "text": "计算",
+        "iconPath": "images/c2.jpg",
+        "selectedIconPath": "/images/c2.jpg"
+      },{
+        "pagePath": "pages/life/life",
+        "text": "校园",
+        "iconPath": "images/school.png",
+        "selectedIconPath": "/images/school.png"
+      }
+    ]
+  },
+  
+  "debug": true
+  
+  
+  
+  
+}

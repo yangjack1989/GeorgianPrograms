@@ -1,0 +1,70 @@
+<!--pages/steps/steps.wxml-->
+<!--
+<view class="title">乔治亚学院教室和设施</view>
+<txv-video vid="p0155gbxiwy"   playerid="txv2" autoplay="{{false}}" ></txv-video>
+<view class="block"></view>
+
+
+<view class="title">乔治亚学院餐饮篇</view>
+<txv-video vid="a0157ohvygn"   playerid="txv1" autoplay="{{false}}" ></txv-video>
+<view class="block"></view>
+
+
+<view class="title">安大略省巴里市的介绍</view>
+<txv-video vid="z01577rdjci"   playerid="txv3" autoplay="{{false}}" ></txv-video>
+-->
+
+ <div class=".weui-cell">
+
+  <div class=".weui-cell__hd">
+    
+      <label class=".weui-label">查询专业</label>
+
+  </div>
+
+       <div class=".weui-cell__bd">
+
+            <input class=".weui-input" type="text" bindinput='searchNameInput' placeholder="请输入专业关键字"/>
+
+        </div>
+        <div class=".weui-cell__ft">
+
+          <button class=".weui-swiped-btn" bindtap="clear">取消</button>
+
+          </div>
+
+   </div>
+ 
+    <button bindtap="setSearch" class='weui-btn weui-btn_primary'   hover-class="other-button-hover">
+    搜索
+    </button>
+                    
+
+<!--
+<view>
+  <view>
+
+        <text style="float:left;" bindtap="deleteHistory">历史搜索</text>
+
+        <text style="float:right;" bindtap="deleteHistory">删除搜索历史</text>
+
+    </view>
+
+</view>
+-->
+
+
+  <div class="weui-cells">
+
+      <view class="weui-cell__bd" wx:for="{{matchList}}" wx-key="id" wx:for-item="progn" >
+
+          <navigator  url="../detail/detail?id={{progn.id}}">
+              <button hover-class='btnbox_hover'>{{progn.name}} ({{progn.code}})</button>
+          </navigator>
+         <div class="weui-cell__ft"></div>
+       </view>
+  </div>
+
+
+  
+

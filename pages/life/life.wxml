@@ -1,0 +1,54 @@
+
+<view class=".weui-cells__title">玩转校园之一一图书馆篇</view>
+<view class='.weui-cell'>开放时间 Mon-Fri:7:30am-8:00pm Sat:10am-5pm  Sun: Closed</view>
+<image mode='aspectFit' class='.weui-cell'src='http://mmbiz.qpic.cn/mmbiz_jpg/UPsNgc5cvtKOTvbS6PIaAok30N0dsz733zGdDzmL1PibdHPG1bTbVMicf07DKh9fN2CP7C4F16D9ibz6OmMGQCs6g/640?wx_fmt=jpeg&wxfrom=5&wx_lazy=1'></image>
+<text class='des'>图书馆前台</text>
+<image mode='aspectFit' class='.weui-cell'src='http://mmbiz.qpic.cn/mmbiz_jpg/UPsNgc5cvtKOTvbS6PIaAok30N0dsz733hUHtDycPGc0Vbj6EYdpH8xORBKTlS30053Fhn5eiaGkjicsIk1UXsVQ/640?wx_fmt=jpeg&wxfrom=5&wx_lazy=1'></image>
+<text class='des'>二层-安静自习区</text>
+<image  class='.weui-cell'mode='aspectFit'src='http://mmbiz.qpic.cn/mmbiz_jpg/UPsNgc5cvtKOTvbS6PIaAok30N0dsz73et7xicSjnRM0VZicibOwlKPMCARIJNU74hp653tqmVyK8qZQJZRL3YKicg/640?wx_fmt=jpeg&wxfrom=5&wx_lazy=1'></image>
+<text class='des'>一层-电脑区</text>
+<image class='.weui-cell'mode='aspectFit'src='http://mmbiz.qpic.cn/mmbiz_jpg/UPsNgc5cvtKOTvbS6PIaAok30N0dsz73SBeCn6kL0kzE9BQRyoLXrShNl06qHRAiaL02Y4t5lKia4rnm6YPcOjfQ/640?wx_fmt=jpeg&wxfrom=5&wx_lazy=1'></image>
+<text class='des'>课外辅导教师</text>
+<image class='.weui-cell'mode='aspectFill'src='http://mmbiz.qpic.cn/mmbiz_jpg/UPsNgc5cvtKOTvbS6PIaAok30N0dsz73UicJwV82kZY09z7oTcLmLsWLR41HYXKw7xAib0XCNE2GMbxoGsQAhrfA/640?wx_fmt=jpeg&wxfrom=5&wx_lazy=1'></image>
+
+<view class='.weui-cells__title'>玩转校园之一一健身房篇 </view>
+<view class='.weui-cell'>上网注册 完成疾病问卷调查</view>
+<text class='des'>运动中心-前台</text>
+<image class='.weui-cell'mode='aspectFill'src='http://mmbiz.qpic.cn/mmbiz_jpg/UPsNgc5cvtLxaXg1P164LjPxO5gFj1mU9AWMPXc0Zwhnb9f21mOxkPadnWKkxPv5S8UjHr7oKLXgt4b5znPong/640?wx_fmt=jpeg&wxfrom=5&wx_lazy=1'></image>
+<text class='des'>体育场</text>
+<image class='.weui-cell'mode='aspectFill'src='http://mmbiz.qpic.cn/mmbiz_jpg/UPsNgc5cvtLxaXg1P164LjPxO5gFj1mUMM3gjak2Xef5yGlbZCWa7j8nvVunfSHMHYF8ncticO4AC8WicWdsNVXw/640?wx_fmt=jpeg&wxfrom=5&wx_lazy=1'></image>
+<text class='des'>更衣室</text>
+<image class='.weui-cell'mode='aspectFill'src='http://mmbiz.qpic.cn/mmbiz_jpg/UPsNgc5cvtLxaXg1P164LjPxO5gFj1mUgXJLNqhjYzUjiaQyJgDAn7N67wKIQwylk3IZKz4uLquzjXZic3ybmgicA/640?wx_fmt=jpeg&wxfrom=5&wx_lazy=1'></image>
+<text class='des'>跑道</text>
+<image class='.weui-cell'mode='aspectFill'src='http://mmbiz.qpic.cn/mmbiz_jpg/UPsNgc5cvtLxaXg1P164LjPxO5gFj1mUXCVVv6qxNFJ1NAyQH3JQwvdegfnFaYcic3m9C9flS1qxCiaQcZkicaSMA/640?wx_fmt=jpeg&wxfrom=5&wx_lazy=1'></image>
+<text class='des'>健身区</text>
+<image class='.weui-cell'mode='aspectFill'src='http://mmbiz.qpic.cn/mmbiz_jpg/UPsNgc5cvtLxaXg1P164LjPxO5gFj1mUj6NS0MqiaKVf4KF8CTx2D8G4ib7ZX1nCs8Oxibg7tKjA9iaRxOxGO2rxHg/640?wx_fmt=jpeg&wxfrom=5&wx_lazy=1'></image>
+<view class='.weui-cells__title'>玩转校园之一一餐厅篇</view>
+<text class='des'>乔治亚运营的餐厅</text>
+<image class='.weui-cell' mode='aspectFill'src='http://mmbiz.qpic.cn/mmbiz/UPsNgc5cvtLBEYKwlP9DfOm8pf3su3nic47ibLuFpXHicqlmzwGcicG7AkCNMsC4wWjutsZVVvRSUcvicnjGxzjbZug/640?wx_fmt=jpeg&wxfrom=5&wx_lazy=1'></image>
+<text class='des'>The Last Class (TLC) 餐厅&酒吧</text>
+<image class='.weui-cell'mode='aspectFill'src='http://mmbiz.qpic.cn/mmbiz_jpg/UPsNgc5cvtLsnKN6xc3MBciahiacVC24hlvKlhsfLhO3sF37dHuhccT3IhWE7eEGtwv5dcdVQFJuDQsOicicaicpsag/640?wx_fmt=jpeg&wxfrom=5&wx_lazy=1'></image>
+<text class='des'>赛百味连锁店</text>
+<image class='.weui-cell'mode='aspectFit'src='http://mmbiz.qpic.cn/mmbiz/UPsNgc5cvtIZJ4Ejg6NFHBhWm2ZbpgrR1t9FyZGadoiaBVdtDK8N4Nao78VnUwVqar5fcb5t3YGwTlxc6aYe1fQ/640?wx_fmt=jpeg&wxfrom=5'></image>
+<text class='des'>Tim Hortons 咖啡</text>
+<image class='.weui-cell'mode='aspectFit'class='.weui-cell'mode='aspectFit'src='http://mmbiz.qpic.cn/mmbiz/trkv9052CFMT7WMRYwKicznfG1icSdBROy5kXPMfT2MkdOlWEypFm58tuBlo6XOgsBBy25nY1hYtckcYDchQpEOg/640?wx_fmt=jpeg&wxfrom=5&wx_lazy=1'></image>
+<view class='.weui-cells__title'>玩转校园之一一校园服务篇 </view>
+<text class='des'>Student Hair Studio(发型工作室)</text>
+<text class='des'>预约联系方式：Room A109
+Engineering TechnologyBuilding
+Barrie Campus
+705.728.1968, ext. 1802
+hairstudio@georgiancollege.ca</text>
+<image class='.weui-cell'mode='aspectFit'src='http://mmbiz.qpic.cn/mmbiz/UPsNgc5cvtLBEYKwlP9DfOm8pf3su3nic9ZVmhvnDjiaHuibcb5gnfRT2HFvic4tia0oeZkuyOe0up6MIIk7bPKWxiag/640?wx_fmt=jpeg&wxfrom=5&wx_lazy=1'></image>
+<text class='des'>Student Massage Therapy Clinic 
+(按摩理疗)</text>
+<text class='des'>致电705.722.1532预订
+乔治亚学院注册学生– $20/小时</text>
+<image class='.weui-cell'mode='aspectFit'src='http://mmbiz.qpic.cn/mmbiz/UPsNgc5cvtLBEYKwlP9DfOm8pf3su3nicZcEhtQchiaCibgS68OsybeZf5LDE9PjSpv2wJMh3zZGCf3HXE292MCqw/640?wx_fmt=jpeg&wxfrom=5&wx_lazy=1'></image>
+<text class='des'>Georgian College Optical
+（乔治亚配镜中心）</text>
+<text class='des'>乔治亚学院光学配镜中心：M153 M Building
+更多信息请致电705.722.5159或电邮mark.wilcox@georgiancollege.ca </text>
+<image class='.weui-cell'mode='aspectFit'src='http://mmbiz.qpic.cn/mmbiz/UPsNgc5cvtLBEYKwlP9DfOm8pf3su3nicglEbWc5HvI68820XCW6UVl8x6PosRXjjrBVan4uuGzgLhCZ8j2OrHw/640?wx_fmt=jpeg&wxfrom=5&wx_lazy=1'></image>
+<text class='des'>以上信息来源于乔治亚微信公众号</text>
+<image class='.weui-cell'mode='aspectFit'src='http://mmbiz.qpic.cn/mmbiz/UPsNgc5cvtJyqSHo6VwMegwPEV5DOJVrI0FjLV71AIgODmA6STOGEH8Cttoj7F5tRnlJHYUXhejy25pIzQxFibg/640?wx_fmt=jpeg&wxfrom=5&wx_lazy=1'></image>

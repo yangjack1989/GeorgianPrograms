@@ -1,0 +1,35 @@
+<!--index.wxml-->
+<swiper indicator-dots="true"  
+        autoplay="ture" interval="3000" duration="1000">  
+      <block wx:for="{{imageSrc}}">  
+        <swiper-item>  
+           
+            <image src="{{item}}" class="slide-image" />  
+             
+        </swiper-item>  
+      </block>  
+</swiper>  
+  
+
+<!--<view class="userinfo">
+    <button wx:if="{{!hasUserInfo && canIUse}}" open-type="getUserInfo" bindgetuserinfo="getUserInfo"> 获取头像昵称 </button>
+    <block wx:else>
+      <image bindtap="bindViewTap" class="userinfo-avatar" src="{{userInfo.avatarUrl}}" mode="cover"></image>
+      <text class="userinfo-nickname">{{userInfo.nickName}}</text>
+    </block>
+  </view> -->
+<text class="category">专业种类</text>
+<form bindsubmit="formSubmit">
+  <view>
+    
+    <radio-group class="radio-group" bindchange="radioChange" name="radiogroup">
+      <label class="radio" wx:for='{{items}}' wx:key="key">
+        <radio value='{{item.name}}' checked='{{item.checked}}' />{{item.value}}
+      </label>
+    </radio-group>
+  </view>
+
+  <button formType="submit"  type='primary' hover-class='other-button-hover' class=".weui-btn">
+    开始
+  </button>
+</form>

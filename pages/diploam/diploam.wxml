@@ -1,0 +1,225 @@
+<!--pages/diploam/diploam.wxml-->
+<text class="header">专业分类</text>
+<view class="one {{showView1?'show':'show'}}">
+
+  <button class='show-button1' bindtap='showButton1'>商科</button>
+</view>
+<view class="two {{showView1?'hide':'show'}}">
+  <navigator url="../detail/detail?id=1">
+    <button class="drawer_title line">汽车商务管理</button>
+  </navigator>
+  <navigator url="../detail/detail?id=24">
+    <button class="drawer_title line">法律文书</button>
+  </navigator>
+  <navigator url="../detail/detail?id=32">
+    <button class="drawer_title line">综合商业管理</button>
+  </navigator>
+  <navigator url="../detail/detail?id=25">
+    <button class="drawer_title line">商科会计</button>
+  </navigator>
+  <navigator url="../detail/detail?id=26">
+    <button class="drawer_title line">商科-创业</button>
+  </navigator>
+  <navigator url="../detail/detail?id=27">
+    <button class="drawer_title">行政管理（医疗）</button>
+  </navigator>
+  <navigator url="../detail/detail?id=28">
+    <button class="drawer_title">行政管理（行政）</button>
+  </navigator>
+  <navigator url="../detail/detail?id=29">
+    <button class="drawer_title line">机场管理（地勤）</button>
+  </navigator>
+  <navigator url="../detail/detail?id=30">
+    <button class="drawer_title line">工商管理（会计）</button>
+  </navigator>
+  <navigator url="../detail/detail?id=31">
+    <button class="drawer_title line">工商管理(人力资源）</button>
+  </navigator>
+  <navigator url="../detail/detail?id=33">
+    <button class="drawer_title line">商科-市场营销</button>
+  </navigator>
+</view>
+
+<view class="one {{showView3?'show':'show'}}">
+  <button class='show-button3' bindtap='showButton3'>旅游/酒店管理</button>
+</view>
+<view class="two {{showView3?'hide':'show'}}">
+  <navigator url="../detail/detail?id=7">
+    <button class="drawer_title line">高尔夫运营与管理 </button>
+  </navigator>
+  <navigator url="../detail/detail?id=43">
+  <button class="drawer_title line">运动管理 </button>
+  </navigator>
+  <navigator url="../detail/detail?id=44">
+  <button class="drawer_title line">健身及健康推广 </button>
+  </navigator>
+  <navigator url="../detail/detail?id=46">
+  <button class="drawer_title line">厨师及餐饮管理 </button>
+  </navigator>
+  <navigator url="../detail/detail?id=9">
+    <button class="drawer_title line">酒店及主题度假村运营 </button>
+  </navigator>
+  <navigator url="../detail/detail?id=48">
+  <button class="drawer_title line">休闲及娱乐策划服务 </button>
+  </navigator>
+  <navigator url="../detail/detail?id=49">
+  <button class="drawer_title line">旅游及营销开发 </button>
+  </navigator>
+  <navigator url="../detail/detail?id=50">
+  <button class="drawer_title line">滑雪度假村运营及管理 </button>
+  </navigator>
+</view>
+
+<view class="one {{showView4?'show':'show'}}">
+
+  <button class='show-button4' bindtap='showButton4'>工程及技术</button>
+</view>
+<view class="two {{showView4?'hide':'show'}}">
+  <navigator url="../detail/detail?id=34">
+    <button class="drawer_title line">土木工程</button>
+  </navigator>
+  <navigator url="../detail/detail?id=36">
+  <button class="drawer_title line">环境技师</button>
+  </navigator>
+  <navigator url="../detail/detail?id=11">
+    <button class="drawer_title line">机械工程</button>
+  </navigator>
+  <navigator url="../detail/detail?id=37">
+  <button class="drawer_title line">建筑设计技师</button>
+  </navigator>
+  <navigator url="../detail/detail?id=5">
+    <button class="drawer_title line">电气工程技师</button>
+  </navigator>
+
+  <navigator url="../detail/detail?id=39">
+  <button class="drawer_title line">电力工程技术</button>
+  </navigator>
+  
+  <navigator url="../detail/detail?id=8">
+    <button class="drawer_title line">电气工程-自动化</button>
+  </navigator>
+  <navigator url="../detail/detail?id=74">
+  <button class="drawer_title line">航海工程技术</button>
+  </navigator>
+  <navigator url="../detail/detail?id=38">
+  <button class="drawer_title line">机械工程</button>
+  </navigator>
+  <navigator url="../detail/detail?id=79">
+  <button class="drawer_title line">航海导航技术</button>
+  </navigator>
+  <navigator url="../detail/detail?id=86">
+  <button class="drawer_title line">机械技师 - 精密制造</button>
+  </navigator>
+  <navigator url="../detail/detail?id=87">
+  <button class="drawer_title line">燃气空调技术</button>
+  </navigator>
+</view>
+
+<view class="one {{showView5?'show':'show'}}">
+
+  <button class='show-button5' bindtap='showButton5'>医疗与健康</button>
+</view>
+<view class="two {{showView5?'hide':'show'}}">
+  <navigator url="../detail/detail?id=75">
+  <button class="drawer_title line">牙科保健</button>
+  </navigator>
+  <navigator url="../detail/detail?id=12">
+    <button class="drawer_title line">配镜师</button>
+  </navigator>
+  
+  <navigator url="../detail/detail?id=14">
+    <button class="drawer_title line">护士</button>
+  </navigator>
+  <navigator url="../detail/detail?id=58">
+  <button class="drawer_title line">自然疗法-针灸</button>
+  </navigator>
+  <navigator url="../detail/detail?id=54">
+  <button class="drawer_title line">理疗按摩</button>
+  </navigator>
+  <navigator url="../detail/detail?id=13">
+    <button class="drawer_title line">药剂技师</button>
+  </navigator>
+  <navigator url="../detail/detail?id=53">
+  <button class="drawer_title line">医学美容助理</button>
+  </navigator>
+  <navigator url="../detail/detail?id=57">
+  <button class="drawer_title line">高级按摩治疗师</button>
+  </navigator>
+  <navigator url="../detail/detail?id=56">
+  <button class="drawer_title line">兽医</button>
+  </navigator>
+  <navigator url="../detail/detail?id=59">
+  <button class="drawer_title line">牙模具</button>
+  </navigator>
+  <navigator url="../detail/detail?id=55">
+  <button class="drawer_title line">护理师</button>
+  </navigator>
+  <navigator url="../detail/detail?id=54">
+  <button class="drawer_title line">职业治疗师助理</button>
+  </navigator>
+  <navigator url="../detail/detail?id=78">
+  <button class="drawer_title line">生物科技-健康</button>
+  </navigator>
+</view>
+
+<view class="one {{showView6?'show':'show'}}">
+
+  <button class='show-button6' bindtap='showButton6'>教育及社区服务</button>
+</view>
+<view class="two {{showView6?'hide':'show'}}">
+  
+  <navigator url="../detail/detail?id=22">
+    <button class="drawer_title line">早期儿童教育</button>
+  </navigator>
+  
+ 
+  <navigator url="../detail/detail?id=71">
+  <button class="drawer_title line">社会工作者</button>
+  </navigator>
+  <navigator url="../detail/detail?id=72">
+  <button class="drawer_title line">儿童及青少年社工</button>
+  </navigator>
+</view>
+
+<view class="one {{showView7?'show':'show'}}">
+
+  <button class='show-button7' bindtap='showButton7'>艺术及设计</button>
+</view>
+<view class="two {{showView7?'hide':'show'}}">
+ 
+  <navigator url="../detail/detail?id=6">
+    <button class="drawer_title line">实用美术</button>
+  </navigator>
+ 
+  <navigator url="../detail/detail?id=63">
+  <button class="drawer_title line">平面设计</button>
+  </navigator>
+  <navigator url="../detail/detail?id=65">
+  <button class="drawer_title line">室内装饰</button>
+  </navigator>
+  <navigator url="../detail/detail?id=10">
+    <button class="drawer_title line">珠宝设计</button>
+  </navigator>
+  <navigator url="../detail/detail?id=64">
+  <button class="drawer_title line">数码摄影及摄像技术</button>
+  </navigator>
+</view>
+
+<view class="one {{showView8?'show':'show'}}">
+
+  <button class='show-button8' bindtap='showButton8'>计算机技术</button>
+</view>
+<scroll-view class="two {{showView8?'hide':'show'}}" scroll-into-view="{{toView}}">
+  <navigator url="../detail/detail?id=4">
+    <button class="drawer_title line">计算机程序员</button>
+  </navigator>
+  <navigator url="../detail/detail?id=3">
+    <button class="drawer_title line">计算机程序分析员</button>
+  </navigator>
+  <navigator url="../detail/detail?id=76">
+  <button class="drawer_title line">网络工程</button>
+  </navigator>
+  <navigator id="low" url="../detail/detail?id=77">
+  <button class="drawer_title line">计算机交互媒体设计</button>
+  </navigator>
+</scroll-view>

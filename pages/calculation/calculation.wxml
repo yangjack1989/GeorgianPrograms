@@ -1,0 +1,39 @@
+<!--pages/calculation/calculation.wxml-->
+<text class="header">留学基本费用计算器</text>
+  <form bindsubmit='sub' bindreset='reset'class="form" >
+  <view >
+    <label>请输入专业学费总额（加元）</label>
+    
+    <input class="input" type="number" name="tuition" bindinput='getTuition' />
+  </view>
+  <label>学期数(每学期为4个月)</label>
+  <radio-group class="radio-group" bindchange="radioChange" name="semesterNum">
+    <label class="radio" wx:for="{{semester}}">
+      <radio value="{{item.name}}" checked="{{item.checked}}" />{{item.value}}
+    </label>
+  </radio-group>
+  <view>
+    <label>请输入住房费用（月）</label>
+    <view class="weui-cell__bd">
+      <input class="input" type="number" name="house" bindinput="getHouse" />
+    </view>    
+    <label>住房总和: {{house}}</label>
+  </view>
+
+  <view>
+    <label>请输入餐饮费用（月）</label>
+    <input class="input" name="food" type="number" bindinput='getFood' />
+    <text>餐饮总和: {{food}}</text>
+  </view>
+  <view>
+    <label>请输入交通费用（月）</label>
+    <input class="input" name="transportation"  type="number" bindinput='getTrans' />
+    <text>交通总和:  {{transportation}}</text>
+  </view>
+  <view>总和: {{total}}</view>
+  <view class='btn'>
+  <button size="mini" bindtap='add'>计算总和（加元）</button>
+  <button form-type='submit' size="mini">换算人名币</button>
+  <button form-type='reset' size="mini">重置</button>
+  </view>
+</form>

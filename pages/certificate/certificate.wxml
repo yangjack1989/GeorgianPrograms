@@ -1,0 +1,21 @@
+<!--pages/certificate/certificate.wxml-->
+
+<view class="page">
+  <view class="page__hd">
+    <text class="page__desc">研究生文凭专业</text>
+     <view class='block'></view>   
+  </view>
+
+<view class="weui-grids"  >
+<view wx:for="{{certList}}" wx-key="id" wx:for-item="progn" >
+<view >
+  <navigator  class="weui-grid" url="../detail/detail?id={{progn.id}}">
+   <text class="weui-grid__label">{{progn.name}}</text>
+  </navigator>
+</view>
+</view>
+</view>
+  
+
+
+</view>

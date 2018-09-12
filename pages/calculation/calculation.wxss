@@ -1,0 +1,32 @@
+/* pages/calculation/calculation.wxss */
+.form{
+  padding: 40rpx;
+  border: 5rpx black;
+  background-color:lightgray;
+  font-family: "Microsoft YaHei";
+  margin: 10rpx;
+}
+.header{
+  text-align: center;
+  color: darkcyan;
+  margin: 10rpx;
+}
+label{
+  margin:10rpx;
+  margin-top: 20rpx;
+}
+.btn{
+  display: flex;
+  flex-direction: row;
+  
+  margin: 10px;
+}
+.input{
+  background: white;
+  margin: 20rpx;
+}
+.radio-group{
+  display: flex;
+  flex-direction: row;
+  margin-right: 20rpx;
+}
